@@ -23,7 +23,7 @@ var b = Math.floor(Math.random() * 10);
      onValue(users, snapshot=>{
        window.navigator.vibrate(50)
        $("#refresh").empty()
-       $("#inp").val(" ")
+       
        let itemsArray = Object.entries(snapshot.val())
        
        
@@ -99,6 +99,7 @@ var b = Math.floor(Math.random() * 10);
 }
   
      $("#leo").click(()=>{
+        $("#inp").val(" ")
             d = new Date()
       h = d.getHours()
       min = d.getMinutes()
