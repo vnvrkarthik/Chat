@@ -99,7 +99,7 @@ var b = Math.floor(Math.random() * 10);
 }
   
      $("#leo").click(()=>{
-        $("#inp").val(" ")
+        
             d = new Date()
       h = d.getHours()
       min = d.getMinutes()
@@ -120,6 +120,7 @@ console.log(date);
     
     
      push(users,"<div class='bg-seconday rounded px-0' style='color:"+usercolor+"'>"+sname+"</div>"+'<hr class="mt-1 mb-2">'+"<small>"+sentTime+"</small>" +" :     " + text)
+      $("#inp").val(" ")
 //push(users, text)
      console.log(text)
      }else{
