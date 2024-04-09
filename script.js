@@ -118,7 +118,7 @@ console.log(date);
     sname = capitalizeFirstLetter(sname)
     
     
-     push(users,"<div class='bg-seconday rounded px-0' style='color:"+usercolor+"'>"+sname+"</div>"+'<hr class="mt-1 mb-2">'+"<small>"+sentTime+"</small>" +" :     " + text)
+     push(users,"<div class='bg-seconday rounded px-0' style='color:"+usercolor+"'>"+sname+"</div>"+'<hr class="mt-1 mb-2">'+text+"&nbsp;&nbsp; <small>"+sentTime+"</small>")
      $("#inp").val(" ")
 //push(users, text)
      console.log(text)
